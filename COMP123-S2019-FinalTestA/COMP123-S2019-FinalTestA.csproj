@@ -50,6 +50,12 @@
     <Compile Include="Objects\Power.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\HeroGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\HeroGenerator.Designer.cs">
+      <DependentUpon>HeroGenerator.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\MasterForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\HeroGenerator.resx">
+      <DependentUpon>HeroGenerator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\MasterForm.resx">
       <DependentUpon>MasterForm.cs</DependentUpon>
     </EmbeddedResource>
