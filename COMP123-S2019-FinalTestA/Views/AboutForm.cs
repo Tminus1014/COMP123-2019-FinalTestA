@@ -7,6 +7,14 @@ using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*
+ * Student Name: Trent B Minia
+ * Student ID: 301041132
+ * 
+ * Description: Hero Generator About Box Form
+ * 
+ */
+
 namespace COMP123_S2019_FinalTestA.Views {
     partial class AboutForm : Form {
         public AboutForm() {

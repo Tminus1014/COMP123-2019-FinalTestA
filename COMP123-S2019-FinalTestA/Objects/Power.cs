@@ -13,9 +13,17 @@ using System.Threading.Tasks;
  */
 
 namespace COMP123_S2019_FinalTestA.Objects {
-    class Power {
+    public class Power {
         public string Name { get; set; }
-        public string Number { get; set; }
+
+        // Constructor
+        public Power(string name) {
+            this.Name = name;
+        }
+
+        public override string ToString() {
+            return Name;
+        }
 
     }
 }
