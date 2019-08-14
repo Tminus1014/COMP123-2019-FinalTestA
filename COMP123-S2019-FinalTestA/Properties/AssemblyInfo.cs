@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("COMP123-S2019-FinalTestA")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Hero Generator")]
+[assembly: AssemblyDescription("This application generates names and stats for a hero.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Centennial College")]
 [assembly: AssemblyProduct("COMP123-S2019-FinalTestA")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCopyright("Copyright © Trent B Minia tm- 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

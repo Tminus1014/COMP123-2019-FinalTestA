@@ -13,9 +13,8 @@ using System.Threading.Tasks;
  */
 
 namespace COMP123_S2019_FinalTestA.Objects {
-    class Hero {
+    public class Hero {
         // Private Instance Variables
-
         private string m_fighting;
         private string m_strength;
         private string m_agility;
@@ -82,8 +81,8 @@ namespace COMP123_S2019_FinalTestA.Objects {
         // Power List
         List<Power> Powers;
 
-        // Constructor
-        Hero () {
+        // Constructors
+        public Hero () {
             // Instantiate Empty Power List
             Powers = new List<Power>();
         }
